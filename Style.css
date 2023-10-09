@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=Dancing+Script:wght@500&family=EB+Garamond&family=Jost:ital,wght@1,300;1,400&family=Playfair+Display&family=Roboto+Condensed&family=Tilt+Prism&family=Zilla+Slab:wght@400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.first{
+    background-image:url('10001.jpg');
+    padding-bottom: 241px;
+}
+h2{
+    font-size: 40px !important;
+    font-family: Zilla Slab;
+}
+.top-body h1{
+    font-size: 90px;
+    font-family: Alegreya;
+    margin-top: 150px;
+}
+.top-body p{
+    font-size: 30px;
+    font-family: Zilla Slab;
+}
+.top-button{
+    font-size: 25px;
+    font-family: Alegreya;
+    padding-bottom: 10px !important;
+    padding-top: 10px !important;
+}
+.image-1{
+    background-image: url('10002.jpg');
+    background-size: cover;
+    height: 110vh;
+    width: 90% !important;
+    margin-left: 5%;
+    margin-top: 100px;
+}
+.second h2{
+    padding-top: 350px;
+}
+.second p{
+    font-size: 18px;
+    color: rgb(129, 129, 129);
+    margin-top: 20px;
+    line-height: 40px;
+}
+.circle{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    border: solid;
+    border-width: 1px;
+
+}
+.circle i{
+    color: rgb(101, 192, 186);
+    font-size: 20px;
+}
+.vid a{
+    text-decoration: none;
+    color: rgb(101, 192, 186);
+    font-size: 20px;
+}
+.third{
+    background-color: rgb(250, 250, 250);
+}
+.third h2{
+    font-size: 35px !important;
+    font-weight: bold;
+}
+.third p{
+    font-size: 18px;
+    color: rgb(129, 129, 129);
+    line-height: 40px;
+}
+.third .card{
+    background: none;
+    border: 0;
+    width: 85% !important;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+.third p{
+    line-height: 30px;
+}
+.third h3{
+    font-size: 30px !important;
+    font-family: Zilla Slab;
+}
+.card-icon{
+    background-color: rgb(101, 192, 186);
+    width: 80px;
+    height: 80px;
+    display: flex !important;
+    border-radius: 50%;
+}
+.third i{
+    font-size: 40px;
+}
+.fourth-top{
+    width: 100%;
+}
+.fourth-top h1{
+    font-size: 80px;
+    font-family: Alegreya;
+    margin-top: 150px;
+}
+.fifth{
+    background-color: rgb(101, 192, 186);
+    margin-top: 80px;
+}
+h1{
+    font-size: 70px;
+    font-family: Alegreya;
+    padding-top: 100px;
+}
+.fifth p{
+    font-size: 19px;
+}
+.fifth .card{
+    border: 0;
+}
+.fifth .card{
+    text-align: left;
+}
+.fifth-date{
+    color: rgb(203, 201, 201);
+}
+.fifth .row{
+    
+}
+.card-text {
+    color: rgb(151, 150, 150);
+}
+.fifth-text{
+    line-height: 40px;
+    color: rgb(202, 201, 201) !important;
+}
+.sixth .card-img-top{
+    width: 35%;
+    border-radius: 50%;
+}
+.sixth{
+    background-color: rgb(250, 250, 250);
+}
+.sixth p{
+    font-size: 20px !important;
+}
+.sixth .card-body{
+    text-align: left;
+}
+.sixth-p{
+    color: rgb(172, 172, 172);
+    font-family: Jost !important;
+}
+.sixth .row{
+    
+}
+.sixth .card{
+    background: none;
+}
+.seventh h2{
+    font-size: 35px !important;
+    font-weight: 900 !important;
+}
+.seventh .card{
+    text-align: left;
+}
+.seventh p{
+    font-size: 18px;
+    color: rgb(129, 129, 129);
+    line-height: 40px;
+}
+.seventh .card-text {
+    line-height: normal !important;
+    color: rgb(101, 192, 186) !important;
+}
+.seventh-icons{
+    color: rgb(101, 192, 186) !important;
+    margin: 0 !important;
+}
+.seventh h3{
+    font-size: 23px !important;
+    font-family: Zilla Slab;
+    font-weight: bolder !important;
+}
+.seventh-text{
+    color: rgb(129, 129, 129);
+}
+.eigth{
+    background: rgb(33, 37, 41);
+}
+.eigth h3{
+    font-size: 20px !important;
+    font-family: Zilla Slab;
+    font-weight: bolder !important;
+}
+.eigth .row{
+    padding: 100px !important;
+}
+.eigth a{
+    color: rgb(181, 179, 179);
+}
+.contact-ttl{
+    color: rgb(212, 211, 211);
+    font-size:17px;
+}
+.contact-info{
+    color: rgb(155, 154, 154);
+    font-size: 16px;
+}
+.su{
+    color: rgb(155, 154, 154);
+    font-size: 16px;
+}
+.email{
+    background-color: rgb(57, 70, 83);
+    border-radius: 5px;
+    border: none;
+    padding: 8px ;
+    height: 41px;
+}
+@media screen and (max-width:600px) {
+    .fourth-top h1{
+        font-size: 35px;
+        font-family: Alegreya;
+        margin-top: 150px;
+    }
+    .third .card{
+        background: none;
+        border: 0;
+        width: 85% !important;
+        margin-top: 60px;
+        margin-left: 0;
+    }
+    .text-second{
+        text-align: center;
+    }
+    .second p{
+        text-align: center;
+    }
+    .vid{
+        justify-content: center;
+    }
+    br{
+        display: none;
+    }
+    .fifth .row{
+        margin-left: 0 !important;
+    }
+    .sixth .row{
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+    .seventh .row{
+        width: 100%;
+        margin-left: 0 !important;
+        padding: 0 !important;
+    }
+    .eigth{
+        margin-top: 30px;
+    }
+    .eigth .row .col-lg-3{
+        padding-left: 0 !important;
+        margin: 0 !important;
+        padding-top: 10px !important;
+    }
+    .ci{
+        padding: 0 !important;
+    }
+    .eigth .row{
+        padding-left: 30px !important;
+        padding-top: 20px !important;
+        padding-bottom: 0 !important;
+        padding-right: 0 !important;
+    }
+}
